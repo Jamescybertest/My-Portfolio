@@ -1,0 +1,27 @@
+https://www.cve.org/CVERecord?id=CVE-2022-22965
+
+
+Required CVE Record Information
+
+CNA: VMware
+Published: 2022-04-01
+Updated: 2022-07-25
+Description:
+A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. 
+If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
+
+CWE 1 Total
+Learn more
+CWE-94: CWE-94: Improper Control of Generation of Code ('Code Injection')
+
+Product
+
+Spring Framework
+
+Versions 1 Total
+
+Default Status: unknown
+
+affected
+
+affected at Spring Framework versions 5.3.X prior to 5.3.18+, 5.2.x prior to 5.2.20+ and all old and unsupported versions
