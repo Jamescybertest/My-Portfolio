@@ -1,2 +1,2 @@
 # My-Portfolio
-Hands-on cybersecurity Job simulation from Forage in partnership with leading Employers.
+This repository showcases hands-on cybersecurity projects completed through Forage in collaboration with leading leading organizations such as Mastercard, Commonwealth Bank, Telstra, and AIG. Through these simulations, I developed practical skills in SIEM monitoring (Splunk), incident response, threat detection, vulnerability analysis, phishing identification, malware investigation, penetration testing (HackThisSite), and Python scripting for ethical hacking
