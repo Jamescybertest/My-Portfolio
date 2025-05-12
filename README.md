@@ -64,7 +64,7 @@ Project1-Responding-to-Malware/
 
 1. Review the `firewall_logs` to spot abnormal requests or exploit patterns. ( Open `firewall_Infrastructure list` to examine HTTP traffic for abnormal requests or known exploit patterns).
 2. Open the `CVE Record.txt` to read the CVE Report and understand the vulnerability and how it is exploited
-3. Run the Firewall Rule (Python Script) Navigate to the folder containing `firewall_server.py`, then run the firewall simulation Terminal: "python firewall_server.py". This will start an HTTP server that listens for incoming requests and checks for exploit patterns. Open another Terminal tab and run the exploit "test_request.py". The firewall will detect and Block http request status 403.
+3. Run the Firewall Rule (Python Script) Navigate to the folder containing `firewall_server.py`, then run the firewall simulation Terminal: 'python firewall_server.py'. This will start an HTTP server that listens for incoming requests and checks for exploit patterns. Open another Terminal tab and run the exploit `test_requests.py`. The firewall will detect and Block http request status 403.
 4. Open the `postmortem_Report` to learn how the incident was handled.
 
 ---
