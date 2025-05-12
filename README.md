@@ -35,17 +35,6 @@ This project simulates a real-world cybersecurity incident response process trig
 
 ---
 
-## Project Structure
-Project1-Responding-to-Malware/
-│
-├── firewall_logs/ # Simulated log files
-├── postmortem_report.md # Incident report
-├── spring4shell_summary.txt # Exploit explanation
-├── screenshots/ # Optional evidence screenshots
-└── README.md # This documentation
-
-
----
 
 ## Sample Report Summary
 
@@ -59,7 +48,6 @@ Project1-Responding-to-Malware/
 > **Status:** Resolved within 2 hours. Root cause: unpatched Spring Framework exposed to the internet.
 
 ---
-
 ## How to Use
 
 1. Review the `firewall_logs` to spot abnormal requests or exploit patterns. ( Open `firewall_Infrastructure list` to examine HTTP traffic for abnormal requests or known exploit patterns).
@@ -67,11 +55,13 @@ Project1-Responding-to-Malware/
 3. Run the Firewall Rule (Python Script) Navigate to the folder containing `firewall_server.py`, then run the firewall simulation Terminal: 'python firewall_server.py'. This will start an HTTP server that listens for incoming requests and checks for exploit patterns. Open another Terminal tab and run the exploit `test_requests.py`. The firewall will detect and Block http request status 403.
 4. Open the `postmortem_Report` to learn how the incident was handled.
 
+
 ---
 
 ## Why This Matters in Cybersecurity
 
 This exercise mirrors the real responsibilities of a Tier 1 SOC Analyst — detecting and triaging incidents, recognizing attack vectors, and clearly documenting actions. It builds a solid foundation for aspiring blue team professionals.
+
 
 ---
 
