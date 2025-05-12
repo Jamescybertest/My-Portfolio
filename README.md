@@ -2,7 +2,7 @@
 
 ## Description
 
-This project simulates a real-world cybersecurity incident response process triggered by a malware attack that caused a critical service outage. The simulation focuses on detecting the intrusion, analyzing log data, identifying the vulnerability (Spring4Shell), and documenting the response. The exercise mimics how a Security Operations Center (SOC) analyst would respond to such threats using basic log analysis and incident handling steps.
+This project simulates a real-world cybersecurity incident response process triggered by a malware attack that caused a critical service outage. The simulation focuses on detecting the intrusion, analyzing log data, identifying the vulnerability (Spring4Shell), and documenting the response. The exercise mimics how a SOC analyst would respond to such threats using basic log analysis and incident handling steps.
 
 ---
 
